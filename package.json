@@ -7,14 +7,17 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup index.ts --format cjs,esm --dts"
   },
   "keywords": [
-    "Typescript",
-    "Javascript",
-    "Dependency",
-    "Injection"
+    "solid",
+    "design-patterns",
+    "dependency-injection"
   ],
   "author": "Sarath C Ani",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  }
 }
