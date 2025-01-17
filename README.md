@@ -13,7 +13,7 @@ A lightweight and intuitive library for implementing **Dependency Injection (DI)
 ### Installation
 Install the library via npm:
 ```bash
-npm install typescript-dependency-injector
+npm install @gringots/ts-dependency-injector
 ```
 
 ### Basic Usage
